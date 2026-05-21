@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+#contenedor {
+    background-color: bisque;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+body {
+    background-image: url(../../../IMG/pexels-resourceboy-18541708.jpg);
+    background-size:100%;
+    background-repeat: no-repeat; /*cuando estiro la pantalla en modo ventana, el fondo se corta y muestra bordes blancos*/
+}
+
+h1 {
+    background-color: yellowgreen;
+    border-radius: 30px;
+    padding: 1rem;
+    color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+p, a {
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100%;
+  font-style: normal;
+}
+/*carta principal con contenido de la clase*/
+.contenido {
+    background-color: rgb(177, 136, 75);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.contenido p , h3 , .contenido ul , .contenido h4 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/*titulo de las clases*/
+.titulo {
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100%;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: rgb(177, 136, 75);
+    text-align: center;
+}
+/*fecha de las clases*/
+.fecha {
+    font-family: "SN Pro", sans-serif;
+    font-size: 1.25rem;
+    color: rgb(177, 136, 75);
+    text-align: center; 
+}
+
+a {
+    color: rgb(255, 153, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(177, 136, 75);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(143, 110, 19);
+}
